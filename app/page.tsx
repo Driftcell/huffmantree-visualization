@@ -189,7 +189,7 @@ export default function Home() {
 
       const [data, weight] = line.split(':')
 
-      if (isNaN(Number(weight)) && Number(weight) > 0) {
+      if (isNaN(Number(weight)) || Number(weight) < 0) {
         toast.error('Error: check your format')
         return
       }
