@@ -6,7 +6,7 @@ import { Toaster } from '@/components/ui/sonner'
 export const metadata: Metadata = {
   title: 'Visual Huffman Tree',
   description:
-    'This is a final course work for data structure, created by Helio at 2023/12/26',
+    'This is a final course work for data structure, created by Driftcell at 2023/12/26',
 }
 
 export default function RootLayout({
